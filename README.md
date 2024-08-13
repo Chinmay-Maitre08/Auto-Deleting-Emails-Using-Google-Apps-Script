@@ -53,7 +53,10 @@ The script runs daily at midnight to keep your inbox clean and organized.
 
 ### 5. Verify the Trigger
 
+`![image](https://github.com/user-attachments/assets/4d4a2009-352c-4045-962a-9eeaf681a98a).png`
+
 1. Ensure that the trigger is listed on the Triggers page and is correctly configured to run `deleteOldEmails` daily.
+
 
 ## Monitoring and Testing
 
@@ -105,6 +108,10 @@ var excludeLabels = ['Family', 'Project'];
 ---
 
 This section provides instructions on how to configure the script to exclude specific email addresses and labels, including an example for clarity.
+### SAMPLE OUTPUT 
+# UPON CODE EXECUTION
+
+# OUT PUT FROM THE EMAIL DIFFERENT SECTIONS
 
 ## Additional Considerations
 
