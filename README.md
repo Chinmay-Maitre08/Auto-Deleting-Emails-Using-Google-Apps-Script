@@ -112,7 +112,8 @@ This section provides instructions on how to configure the script to exclude spe
 # UPON CODE EXECUTION
 ![Alt text](images/run-script.png)
 # OUT PUT FROM THE EMAIL DIFFERENT SECTIONS
-
+![BEFORE](images/before-delete-promo.png)
+![AFTER](images/after-deletion-promo.png)
 ## Additional Considerations
 
 - **Testing:** Thoroughly test the script to ensure it behaves as expected before relying on it for regular use.
