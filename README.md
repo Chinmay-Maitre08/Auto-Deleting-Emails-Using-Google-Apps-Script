@@ -53,8 +53,7 @@ The script runs daily at midnight to keep your inbox clean and organized.
 
 ### 5. Verify the Trigger
 
-`![image](https://github.com/user-attachments/assets/4d4a2009-352c-4045-962a-9eeaf681a98a).png`
-
+![Alt text](images/trigger-settings.png)
 1. Ensure that the trigger is listed on the Triggers page and is correctly configured to run `deleteOldEmails` daily.
 
 
@@ -112,7 +111,9 @@ This section provides instructions on how to configure the script to exclude spe
 # UPON CODE EXECUTION
 ![Alt text](images/run-script.png)
 # OUT PUT FROM THE EMAIL DIFFERENT SECTIONS
+##BEFORE
 ![BEFORE](images/before-delete-promo.png)
+##AFTER
 ![AFTER](images/after-deletion-promo.png)
 ## Additional Considerations
 
