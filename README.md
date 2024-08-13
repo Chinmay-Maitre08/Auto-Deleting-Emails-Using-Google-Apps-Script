@@ -110,7 +110,7 @@ var excludeLabels = ['Family', 'Project'];
 This section provides instructions on how to configure the script to exclude specific email addresses and labels, including an example for clarity.
 ### SAMPLE OUTPUT 
 # UPON CODE EXECUTION
-
+`images\run-script.png`
 # OUT PUT FROM THE EMAIL DIFFERENT SECTIONS
 
 ## Additional Considerations
