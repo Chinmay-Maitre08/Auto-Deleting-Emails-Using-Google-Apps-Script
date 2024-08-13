@@ -76,6 +76,36 @@ The script runs daily at midnight to keep your inbox clean and organized.
 - **Script Errors:** If an error occurs, the script logs the error and sends an email notification to the specified address. Check the logs for details.
 - **Quota Limits:** Google imposes limits on the number of emails that can be processed. If you encounter quota issues, consider adjusting the batch size or checking your account's usage limits.
 
+## Exclusions Configuration
+
+To ensure that specific emails or labels are not deleted, you can configure user-defined exclusions in the script.
+
+### Updating Exclusions
+
+In the script, update the `excludeEmails` and `excludeLabels` arrays as follows:
+
+```javascript
+// User-defined exclusions
+var excludeEmails = ['example1@example.com', 'example2@example.com']; // List of email addresses to exclude
+var excludeLabels = ['Important', 'Work']; // List of labels to exclude
+```
+
+- **`excludeEmails`**: An array of email addresses that should be excluded from deletion.
+- **`excludeLabels`**: An array of labels that should be excluded from deletion.
+
+### Example
+
+If you want to exclude emails from `john.doe@example.com` and `jane.smith@example.com`, and keep emails labeled as `Family` or `Project`, configure the arrays as follows:
+
+```javascript
+var excludeEmails = ['john.doe@example.com', 'jane.smith@example.com'];
+var excludeLabels = ['Family', 'Project'];
+```
+
+---
+
+This section provides instructions on how to configure the script to exclude specific email addresses and labels, including an example for clarity.
+
 ## Additional Considerations
 
 - **Testing:** Thoroughly test the script to ensure it behaves as expected before relying on it for regular use.
